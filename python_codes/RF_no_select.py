@@ -4,13 +4,10 @@ import shap
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import  svm
 from math import sqrt
-from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import mean_squared_error
-from sklearn.metrics import r2_score ,explained_variance_score, accuracy_score,precision_score,roc_auc_score
+from sklearn.metrics import accuracy_score,roc_auc_score
 import matplotlib.pyplot as plt
 from sklearn.model_selection import cross_val_score
 from sklearn.feature_selection import RFE
