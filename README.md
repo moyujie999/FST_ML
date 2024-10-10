@@ -1,6 +1,8 @@
 # FST_ML
 Code for paper: Agricultural practices influence soil microbiome assembly and interactions at different depths identified by machine learning 
 
+[![DOI](https://zenodo.org/badge/870408913.svg)](https://doi.org/10.5281/zenodo.13910588)
+
 ## Requirements
 
 The code in this repository relies on the following R and Python versions, as well as the corresponding packages. The versions we are using are provided for reference:
